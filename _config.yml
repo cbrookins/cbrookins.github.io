@@ -3,6 +3,7 @@ description:
 meta_description: "built on jekyll"
 
 markdown: redcarpet
+encoding: UTF-8
 pygments: true
 logo: false
 paginate: 15
