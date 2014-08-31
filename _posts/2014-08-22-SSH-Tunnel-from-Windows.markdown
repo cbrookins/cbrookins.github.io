@@ -5,7 +5,7 @@ date: 2014-08-22
 categories: None
 ---
 
-This is something I have been doing for a while in place of [VPN] (Virtual Private Network).  I didn't want to go through the headache of setting up a [VPN] server and having to worry about a [VPN] client.  In my case I mainly send web traffic through, so this is a much simpler way to achieve that goal. 
+This is something I have been doing for a while in place of [VPN] (Virtual Private Network).  I didn't want to go through the headache of setting up a [VPN] server and having to worry about a [VPN] client.  In my case I mainly send web traffic through, so this is a much simpler way to achieve that goal.  
 
 ## Tools
 First thing you need is a server/workstation that you can tunnel into.  This requires some SSH server software.  I was already set up and ready to go.  I currently run about four [Ubuntu] servers and a [Debian] workstation that all run [OpenSSH] server.  If you read this article and thought I would be using Windows from both ends, you were wrong.  But just in case, [freeSSHd] is a good [SSH] server for Windows.
