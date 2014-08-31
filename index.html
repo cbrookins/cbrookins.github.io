@@ -14,7 +14,12 @@ about: 'about.html'
                 </a>
             {% endif %}
             <h1 class="blog-title">{{ site.name }}</h1>
-            <a class="icon-twitter" href='{{site.twitter}}'></a>
+            <a class="icon-twitter" href='http://twitter.com/{{site.twitter}}' target="_blank"></a>
+<!--
+	    <a class="icon-linkedin" href='http://linkedin.com/in/{{site.linkedin}}' target="_blank"></a>
+	    <a class="icon-tumblr" href='http://{{site.tumblr}}.tumblr.com' target="_blank"></a>
+	    <a class="icon-globe" href='http://{{site.website}}' target="_blank"></a>
+-->
 	    <!-- <h2 class="blog-description"> 
                 {{ site.description }}. 
                 {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
