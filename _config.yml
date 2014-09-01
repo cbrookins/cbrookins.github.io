@@ -1,17 +1,17 @@
+baseurl: "/"
 name: chris / brookins
 twitter: cbrookins
 linkedin: cbrookins
 tumblr: minkyn1nja
 website: chris.brookins.info
-description: Simple solutions
+description: 
 meta_description: "built on jekyll"
 
 markdown: redcarpet
-encoding: UTF-8
 pygments: true
 logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'http://cbrookins.github.io'
+url:            'http://tech.brookins.info'
 author:         'Chris'
