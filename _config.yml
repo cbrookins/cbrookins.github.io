@@ -1,0 +1,20 @@
+# Site Settings
+baseurl: "/"
+url: 
+name: "Jekyll Blog"
+description: "Blogging about the things"
+
+# Optional (if you not provide an image your blog title and description will be displayed)
+image: 
+
+# Meta
+meta_author: "Your Name Here"
+meta_description: "built on jekyll"
+
+# Social  (if you do not provide any usernames, the icons will be hidden)
+github: 
+instagram: 
+linkedin: 
+tumblr: 
+twitter: 
+website: 
