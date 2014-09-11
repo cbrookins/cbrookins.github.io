@@ -5,7 +5,7 @@ name: chris / brookins
 description:
 
 # Optional (if you not provide an image your blog title and description will be displayed)
-image: 
+image: cbrookins.jpg
 
 # Meta
 meta_author: Chris Brookins
@@ -13,7 +13,7 @@ meta_description: built on jekyll
 
 # Social  (if you do not provide any usernames, the icons will be hidden)
 github: cbrookins
-instagram: 
+instagram: chrisbrookins
 linkedin: cbrookins
 tumblr: munkyn1nj4
 twitter: cbrookins
