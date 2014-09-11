@@ -1,10 +1,10 @@
 <div class"navbar-inverse navbar-fixed-top">
   <ul class="list-inline">
     {% if site.github() %}
-      <li class="fa fa-github"></li>
+      <a href="https://github.com/{{ site.github }}" target="_blank"><li class="fa fa-github"></li></a>
     {% endif %}
     {% if site.instagram() %}
-      <li class="fa fa-instagram"></li>
+      <a href="http://instagram.com/{{ site.instagram }}" target="_blank"><li class="fa fa-instagram"></li></a>
     {% endif %}
     {% if site.linkedin() %}
       <a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank"><li class="fa fa-linkedin"></li></a>
