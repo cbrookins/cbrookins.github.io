@@ -1,4 +1,4 @@
-basic
-=====
+Keep it Simple
+==============
 
-Keep it Simple - jekyll theme
+jekyll theme
