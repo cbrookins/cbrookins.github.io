@@ -12,23 +12,23 @@ Okay, so how do I update my name servers now?  Well, it is actually pretty easy.
 
 First, edit /etc/network/interfaces  
 
-sudo nano /etc/network/interfaces  
+`sudo nano /etc/network/interfaces`  
 
 
-Now add dns-nameservers xx.xxx.xxx.xx xx.xxx.xxx.xx  n under the interface you want the settings to be applied to.  
+Now add `dns-nameservers xx.xxx.xxx.xx xx.xxx.xxx.xx` under the interface you want the settings to be applied to.  
 
 Example:  
   
-auto lo  
-iface lo inet loopback  
+`auto lo`  
+`iface lo inet loopback`  
 
-auto etho  
-iface etho inet static  
-   address 192.168.0.42  
-   network 192.168.0.0  
-   netmask 255.255.255.0  
-   broadcast 192.168.0.255  
-   gateway 192.168.0.1  
+`auto etho`  
+`iface etho inet static`  
+   `address 192.168.0.42`  
+   `network 192.168.0.0`  
+   `netmask 255.255.255.0`  
+   `broadcast 192.168.0.255`  
+   `gateway 192.168.0.1`  
    <span style="background-color: yellow;">dns-nameservers 8.8.8.8 8.8.4.4</span>  
   
 

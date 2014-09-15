@@ -14,15 +14,15 @@ Boot to your Windows 7 CD
 
 <a href="http://2.bp.blogspot.com/-feEIR81_0L4/T1ghJuG6ErI/AAAAAAAABPg/JMnp8Mk9exk/s1600/Screenshot-2012-02-09_18.21.01.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-right: 1em;" target="_blank"><img border="0" height="150" src="http://2.bp.blogspot.com/-feEIR81_0L4/T1ghJuG6ErI/AAAAAAAABPg/JMnp8Mk9exk/s200/Screenshot-2012-02-09_18.21.01.png" width="200"/></a><a href="http://2.bp.blogspot.com/-V3qN2eEjWrI/T1ghMNKCYSI/AAAAAAAABPw/YdrwnaGeHaA/s1600/Screenshot-2012-02-09_18.22.13.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-right: 1em; text-align: center;" target="_blank"><img border="0" height="150" src="http://2.bp.blogspot.com/-V3qN2eEjWrI/T1ghMNKCYSI/AAAAAAAABPw/YdrwnaGeHaA/s200/Screenshot-2012-02-09_18.22.13.png" width="200"/></a><a href="http://1.bp.blogspot.com/-vz2aoB8OJP0/T1ghK4p1CdI/AAAAAAAABPo/du486Zf7iD4/s1600/Screenshot-2012-02-09_18.21.29.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-right: 1em;" target="_blank"><img border="0" height="150" src="http://1.bp.blogspot.com/-vz2aoB8OJP0/T1ghK4p1CdI/AAAAAAAABPo/du486Zf7iD4/s200/Screenshot-2012-02-09_18.21.29.png" width="200"/></a><a href="http://4.bp.blogspot.com/-BbIZleEm5yE/T1ghNOPHXTI/AAAAAAAABP4/Si4DLdNnaZw/s1600/Screenshot-2012-02-09_18.22.28.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-right: 1em; text-align: center;" target="_blank"><img border="0" height="150" src="http://4.bp.blogspot.com/-BbIZleEm5yE/T1ghNOPHXTI/AAAAAAAABP4/Si4DLdNnaZw/s200/Screenshot-2012-02-09_18.22.28.png" width="200"/></a><a href="http://3.bp.blogspot.com/-dwkT5ZdnJ04/T1ghN9WdGLI/AAAAAAAABQA/D6x5giZNxEc/s1600/Screenshot-2012-02-09_18.22.45.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-right: 1em;" target="_blank"><img border="0" height="150" src="http://3.bp.blogspot.com/-dwkT5ZdnJ04/T1ghN9WdGLI/AAAAAAAABQA/D6x5giZNxEc/s200/Screenshot-2012-02-09_18.22.45.png" width="200"/></a>      
 
-On the first screen select Next  
-On screen two select "Repair your computer"  
-The third screen should display all of the valid Windows 7 installations that are on the HDD/SSD, select the "Use recovery tools&#8230;" radio button and then select Next.  
-On the fourth screen select "Command Prompt"  
+On the first screen select **Next**  
+On screen two select **Repair your computer**  
+The third screen should display all of the valid Windows 7 installations that are on the HDD/SSD, select the **Use recovery tools...** radio button and then select Next.  
+On the fourth screen select **Command Prompt**  
 This brings you to the fifth, and final, screen.  On screen five you will enter the commands  
 
-bootrec /rebuildbcd  
-bootrec /fixmbr  
-bootrec /fixboot  
+`bootrec /rebuildbcd`  
+`bootrec /fixmbr`  
+`bootrec /fixboot`  
 
 
 Now reboot your workstation and the Windows boot manager is back.  To completely remove Ubuntu, you can remove the partitions and extend you windows partition to consume the unused space.

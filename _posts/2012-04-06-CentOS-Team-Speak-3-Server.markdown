@@ -21,55 +21,55 @@ Add <b>IPADDR=<span style="background-color: yellow;">192.168.0.100</span></b>
 Add <b>USERCTL="no"</b>  
 
 Restart the network service  
-service network restart  
+`service network restart`  
 
 
-ifconfig  n should now show eth0.  
+ifconfig should now show eth0.  
 
 Install wget  
-yum install wget  
+`yum install wget`  
 
 
 Download Teamspeak 3  
-wget <a href="http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.3/teamspeak3-server_linux-x86-3.0.3.tar.gz" target="_blank">http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.3/teamspeak3-server_linux-x86-3.0.3.tar.gz</a>  
+`wget http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.3/teamspeak3-server_linux-x86-3.0.3.tar.gz`  
 
 
 Untar  
-tar -zxvf teamspeak3-server_linux-x86-3.0.3.tar.gz  
+`tar -zxvf teamspeak3-server_linux-x86-3.0.3.tar.gz`  
 
 
 Rename folder (optional, if you do not follow this step you will need to adjust the autostart steps below.)  
-mv teamspeak3-server_linux-x86-3.0.3.tar.gz teamspeak3  
+`mv teamspeak3-server_linux-x86-3.0.3.tar.gz teamspeak3`  
 
 
 Unblock client port in iptables  
-iptables -A INPUT -p udp -m udp --dport 9987 -j ACCEPT  
+`iptables -A INPUT -p udp -m udp --dport 9987 -j ACCEPT`  
 
-iptables -A INPUT -p tcp -m tcp --dport 30033 -j ACCEPT  
+`iptables -A INPUT -p tcp -m tcp --dport 30033 -j ACCEPT`  
 
-iptables -A INPUT -p tcp -m tcp --dport 10011 -j ACCEPT  
+`iptables -A INPUT -p tcp -m tcp --dport 10011 -j ACCEPT`  
 
 
 Save iptables changes  
-service iptables save  
+`service iptables save`  
 
 
 Restart iptables  
-service iptables restart  
+`service iptables restart`  
 
 
 Set Team Speak to autostart on boot  
-cp teamspeak3/ts3server_startscript.sh /etc/init.d/  
+`cp teamspeak3/ts3server_startscript.sh /etc/init.d/`  
 
-mv /etc/init.d/ts3server_startscript.sh /etc/init.d/teamspeak3  
+`mv /etc/init.d/ts3server_startscript.sh /etc/init.d/teamspeak3`  
 
-chmod 755 /etc/init.d/teamspeak3  
+`chmod 755 /etc/init.d/teamspeak3`  
 
-chkconfig teamspeak3 on  
+`chkconfig teamspeak3 on`  
 
 
 Run Team Speak 3 server, or you can also reboot.  
-/etc/init.d/teamspeak3 start  
+`/etc/init.d/teamspeak3 start`  
 
 
   

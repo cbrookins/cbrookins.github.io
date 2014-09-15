@@ -12,18 +12,18 @@ This tutorial covers the installation of eJabberd, using Ubuntu Server 10.04.3, 
 The first thing is to install Ubuntu Server 10.04.  
 
 You will want to update your server before getting started  
-sudo aptitude update && sudo aptitude safe-upgrade  
+`sudo aptitude update && sudo aptitude safe-upgrade`  
 
 
 Install ejabberd  
-sudo aptitude install ejabberd  
+`sudo aptitude install ejabberd`  
 
 
 Configure ejabberd  
-sudo nano /etc/ejabberd/ejabberd.cfg  
+`sudo nano /etc/ejabberd/ejabberd.cfg`  
 
 
-Edit the %%Hostname section to match your environment  
+Edit the **%%Hostname** section to match your environment  
 
 %% Hostname  
 {hosts, ["localhost", "domain.local"]}.  
@@ -55,9 +55,7 @@ Configure the LDAP settings as needed
 {ldap_filter, "(memberOf=CN=jabberusers,OU=groups,OU=domain,OU=local)"}.  
 
 
-<span style="color: #ff0000;">**********  
-Note: You can use a &#8216;* in the ldap_filter to include all domain users.  
-**********</span>  
+**Note: You can use a &#8216;* in the ldap_filter to include all domain users.**  
 
 Configure the Access Control List  
 
@@ -74,7 +72,7 @@ Save the configuration
 'y' to save the changes  
 
 Now restart ejabberd  
-sudo /etc/init.d/ejabberd restart  
+`sudo /etc/init.d/ejabberd restart`  
 
 
 You should now have a working Jabber server.  Configure your Jabber client of choice with the server name, or IP, and your domain crendentials and chat away.  

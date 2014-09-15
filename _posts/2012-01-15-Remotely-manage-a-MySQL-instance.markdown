@@ -13,11 +13,11 @@ I set up a MySQL server using Ubuntu Server 10.04, and by default it only allows
 MySQL stores its configuration file in the my.cnf file. This is the only file that needs to be changed to allow connections to a MySQL instance.  
 
 Edit /etc/mysql/my.cnf  
-sudo nano /etc/mysql/my.cnf  
+`sudo nano /etc/mysql/my.cnf`  
 
 
 Edit the line "bind-address = 127.0.0.1" to include your static IP  
-bind-address = <static></static>  
+`bind-address =`  
 
 
 Save the changes  
@@ -25,7 +25,7 @@ ctrl+x to exit
 Y to confirm the changes  
 
 Restart MySQL  
-sudo /etc/init.d/mysql restart  
+`sudo /etc/init.d/mysql restart`  
 
 
 Once the MySQL instance has restarted, remote connections should be allowed to the static address of the server.",

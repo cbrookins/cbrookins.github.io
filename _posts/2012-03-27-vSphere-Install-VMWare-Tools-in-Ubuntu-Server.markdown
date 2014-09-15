@@ -11,24 +11,24 @@ This article assumes that you already have vSphere installed with a virtual inst
 In vSphere client select VM &gt; Guest &gt; Install/Upgrade VMWare Tools  
 
 Update your Ubuntu installation  
-sudo apt-get update && sudo apt-get upgrade  
+`sudo apt-get update && sudo apt-get upgrade`  
 
 
 Install build-essential, binutils and the headers of your current kernel  
-sudo apt-get install build-essential binutils linux-headers-$(uname -r)  
+`sudo apt-get install build-essential binutils linux-headers-$(uname -r)`  
 
 
 Mount the CD inside of your Ubuntu instance  
-mount /dev/scd0 /cdrom  
+`mount /dev/scd0 /cdrom`  
 
 
 Untar VMWare Tools  
-tar -vxzf /cdrom/VMWareTools*.tar.gz -C /tmp  
+`tar -vxzf /cdrom/VMWareTools*.tar.gz -C /tmp`  
 
 
 Install VMWare Tools  
-cd /tmp/vmware-tools-distrib  
-./vmware-install.pl  
+`cd /tmp/vmware-tools-distrib`  
+`./vmware-install.pl`  
 
 
   

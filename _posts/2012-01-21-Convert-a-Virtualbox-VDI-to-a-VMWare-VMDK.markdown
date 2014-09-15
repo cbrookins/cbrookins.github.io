@@ -16,4 +16,4 @@ In a Windows command prompt &#8216;cd to the <a href="http://www.virtualbox.org/
 
 In Linux you can run the command as is. Just copy and past, changing the "pathtoimage.vdi" and "pathtoimage.vmdk".  
 
-VBoxManage clonehd "pathtoimage.vdi" "pathtoimage.vmdk --format VMDK  n
+`VBoxManage clonehd "pathtoimage.vdi" "pathtoimage.vmdk --format VMDK`
