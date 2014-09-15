@@ -2,7 +2,6 @@
 layout: post
 title: Lync 2013 Status Updater  LastFM
 date: 2014-04-11
-categories: None
 ---
 
 This is a follow up to the Lync 2010 Status Updater post that I did a while back.  Now that the Lync 2013 SDK is available this can be used with the Lync 2013 client.  As before you will need the SDK for your version of Lync.  In this case [2013](http://www.microsoft.com/en-us/download/details.aspx?id=36824).  

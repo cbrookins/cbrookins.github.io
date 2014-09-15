@@ -2,7 +2,6 @@
 layout: post
 title: Windows 7 Fix Boot Loader
 date: 2010-06-05
-categories: None
 ---
 
 I was playing around with a Linux distro (Backtrack 4) on my netbook and accidently overwrote the Windows boot loader with the GRUB boot loader. My workstation would not boot anymore but I knew everything was still in place. All I had to do was restore the Windows boot loader.  

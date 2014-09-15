@@ -2,7 +2,6 @@
 layout: post
 title: Virtualbox Headless Server  Ubuntu Server 12.04
 date: 2012-08-04
-categories: None
 ---
 
 *Same post as before, updated for Ubuntu Server 12.04*

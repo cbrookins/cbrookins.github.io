@@ -2,7 +2,6 @@
 layout: post
 title: XBMC Library sync with MySQL
 date: 2013-07-14
-categories: None
 ---
 
 With the release of the RapberryPi I couldn't wait to buy one. So far I have purchased two. I plan to buy at least one for each TV in the house, and maybe a few more for random projects.  My main purpose for the Raspberry Pi that I own today is XBMC. Each Raspi runs [Openelec](http://www.openelec.tv/) . 

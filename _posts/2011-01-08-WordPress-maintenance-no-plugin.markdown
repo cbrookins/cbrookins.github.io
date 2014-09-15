@@ -2,7 +2,6 @@
 layout: post
 title: WordPress maintenance no plugin
 date: 2011-01-08
-categories: None
 ---
 
 I have been using this for a while on some of the Wordpress sites that I run, but when you havent done it in a while and you forget finding it again seems to be a problem. Instead of relying on Google, I am posting this here so that I can find it easily in the future.  

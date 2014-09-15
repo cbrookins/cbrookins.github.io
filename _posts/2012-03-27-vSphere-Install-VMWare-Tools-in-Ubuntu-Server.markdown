@@ -2,7 +2,6 @@
 layout: post
 title: vSphere Install VMWare Tools in Ubuntu Server
 date: 2012-03-27
-categories: None
 ---
 
 <i>"VMware Tools is a suite of utilities that enhances the performance of the virtual machines guest operating system and improves management of the virtual machine. Without VMware Tools installed in your guest operating system, guest performance lacks important functionality."</i>  

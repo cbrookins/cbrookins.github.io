@@ -2,7 +2,6 @@
 layout: post
 title: Data Description better known as dd
 date: 2011-06-12
-categories: None
 ---
 
 One thing that you cannot get away from in IT is the need to copy hard drives, mostly referred to as "imaging" or cloning hard drives.  

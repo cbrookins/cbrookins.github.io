@@ -2,7 +2,6 @@
 layout: post
 title: Windows 7 Create System Image
 date: 2010-07-01
-categories: None
 ---
 
 Windows 7 has made it easy for any user to create an image of their workstation. They have a built in tool to do a complete system backup that can be restored at a later time, if needed. System images are one of the best ways to back up your workstation. For most users, this should be the first step they perform when they buy a new system.  

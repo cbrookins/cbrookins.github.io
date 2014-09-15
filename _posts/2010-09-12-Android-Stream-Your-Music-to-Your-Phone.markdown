@@ -2,7 +2,6 @@
 layout: post
 title: Android Stream Your Music to Your Phone
 date: 2010-09-12
-categories: None
 ---
 
 A while back I did a tutorial on setting up a DAAP server using FreeNAS.  This builds on top of that tutorial and shows you how to set up your Android based phone to stream that music, across the internet, wherever you are.  

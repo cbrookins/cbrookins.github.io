@@ -2,7 +2,6 @@
 layout: post
 title: Virtualbox Headless Server
 date: 2011-05-15
-categories: None
 ---
 
 Creating virtual machines is easy on a workstation with a nice gui interface, but what about if you want to do this on a server install that has nothing but a command line. This tutorial goes over installing a headless Ubuntu 10.04 server with <a href="http://code.google.com/p/phpvirtualbox/" target="_blank">phpvirtualbox</a> to manage your virtual machines. From start to finish the set up takes about a hour to complete. The following are the steps I took to complete the install, most came from the documentation for <a href="http://code.google.com/p/phpvirtualbox/" target="_blank">phpvirtualbox</a>.  

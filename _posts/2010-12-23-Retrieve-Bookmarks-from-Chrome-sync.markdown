@@ -2,7 +2,6 @@
 layout: post
 title: Retrieve Bookmarks from Chrome sync
 date: 2010-12-23
-categories: None
 ---
 
 Over the past couple of weeks I have slowly dropped my usage of Chrome. I am now at the point where I no longer use Chrome. I reinstalled a fresh copy of Ubuntu 10.10 and totally forgot to backup my bookmarks.  

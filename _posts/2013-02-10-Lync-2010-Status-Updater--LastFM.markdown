@@ -2,7 +2,6 @@
 layout: post
 title: Lync 2010 Status Updater  LastFM
 date: 2013-02-10
-categories: None
 ---
 
 Since implementing Lync at my work place the status updates have taken off within the work place. After a few months of trying to keep them current I decided it was time to do something more automated. I decided my Last.fm &#8216;Recently Listened Tracks was good enough.   

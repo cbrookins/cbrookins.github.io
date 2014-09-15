@@ -2,7 +2,6 @@
 layout: post
 title: Windows 7 Reinstall Boot Loader
 date: 2012-02-09
-categories: None
 ---
 
 So I installed Ubuntu on my laptop in a dual boot setup. Windows was already present so I let Ubuntu do its thing and ended up with Windows 7 and Ubuntu on my hard drive with the grub boot loader. Easy. No problems there.  

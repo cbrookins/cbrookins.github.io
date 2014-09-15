@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu eJabberd server with AD authentication
 date: 2011-12-07
-categories: None
 ---
 
 *ejabberd is a Jabber/XMPP instant messaging server, licensed under GPLv2 (Free and Open Source), written in Erlang/OTP. Among other features, ejabberd is cross-platform, fault-tolerant, clusterable and modular.* - <a href="http://www.ejabberd.im/" title="eJabberd" target="_blank">eJabberd</a>  

@@ -2,7 +2,6 @@
 layout: post
 title: FreeNAS Configuring an iTunesDAAP Server
 date: 2010-04-15
-categories: None
 ---
 
 This is a short video tutorial on how to configure an iTunes/DAAP server on your FreeNAS server. This tutorial assumes that you have followed the "Installing FreeNAS" tutorial that is also available in the tutorials section of this site. This tutorialslightlytouches on creating simple playlists on the server to make them available to all users. After following this tutorial you should be able to stream music to any computer, or device, in your house that supports the iTunes/DAAP protocol.  

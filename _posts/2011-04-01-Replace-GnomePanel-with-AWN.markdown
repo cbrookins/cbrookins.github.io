@@ -2,7 +2,6 @@
 layout: post
 title: Replace GnomePanel with AWN
 date: 2011-04-01
-categories: None
 ---
 
 If you had asked me a year ago whether or not it was a good idea to use a dock, I probably wouldnt have said yes. I had seen docks used in the past with Ubuntu, and I tried plenty of times to use them exclusively. After so many failed attempts and lack of stable features on the docks that were available I gave up.  

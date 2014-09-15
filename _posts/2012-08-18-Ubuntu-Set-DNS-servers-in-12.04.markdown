@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu Set DNS servers in 12.04
 date: 2012-08-18
-categories: None
 ---
 
 After doing clean installs of Ubuntu 12.04 server on my development machine I came across an odd problem on each machine.  As I was trying to update the clean installs I kept getting "could not resolve address" error during the &#8216;apt-get update process.  After playing with it for a minute I realized that DNS was not working.  I could ping the Google IP, but when I pinged Google by name it would fail.  

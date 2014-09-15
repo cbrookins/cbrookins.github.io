@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu Quick Setup
 date: 2011-05-01
-categories: None
 ---
 
 One of the most annoying things about reinstalling your operating system is reinstalling all of your applications.  Since I am so against upgrading the OS, I am constantly reinstalling every time a new release of Ubuntu comes out.  I was so tired of having to remember which applications to install that I finally decided to script it.  

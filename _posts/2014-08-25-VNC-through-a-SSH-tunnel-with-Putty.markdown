@@ -2,7 +2,6 @@
 layout: post
 title: VNC through a SSH tunnel with Putty
 date: 2014-08-25
-categories: None
 ---
 
 **This posts assumes that you already have a SSH tunnel in place.  If you do not, [read this][1] first.**

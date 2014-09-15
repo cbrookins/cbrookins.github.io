@@ -2,7 +2,6 @@
 layout: post
 title: Blackberry Loading Hybrid OS
 date: 2010-07-11
-categories: None
 ---
 
 RIM doesnu2019t provide updates as often as I would like, so I went out looking for custom OS builds or unofficial updates. What I cam across was <a href="http://bbhybrids.net/" target="_blank">BBHybrids.net</a>. Here you can download official Blackberry software releases and custom Blackberry Hybrids of leaked OS builds.  

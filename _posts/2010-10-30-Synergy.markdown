@@ -2,7 +2,6 @@
 layout: post
 title: Synergy
 date: 2010-10-30
-categories: None
 ---
 
 *Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware. Its intended for users with multiple computers on their desk since each system uses its own monitor(s).*  

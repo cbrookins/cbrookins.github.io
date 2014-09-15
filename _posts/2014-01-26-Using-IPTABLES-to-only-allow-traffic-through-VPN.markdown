@@ -2,7 +2,6 @@
 layout: post
 title: Using IPTABLES to only allow traffic through VPN
 date: 2014-01-26
-categories: None
 ---
 
 *This article assumes that you have already set up a VPN connection and that the interface for that connection is named tun0.*  

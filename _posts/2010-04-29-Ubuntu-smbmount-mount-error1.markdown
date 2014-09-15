@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu smbmount mount error1
 date: 2010-04-29
-categories: None
 ---
 
 I recently ran into a problem mounting a remote share to my newly installed Ubuntu 10.04 installation. I had never had a problem before so I knew my mount script was correct. I found an easy fix to allow a regular user to mount a remote share.  

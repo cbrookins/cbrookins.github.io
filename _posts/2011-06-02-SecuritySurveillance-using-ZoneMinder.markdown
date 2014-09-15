@@ -2,7 +2,6 @@
 layout: post
 title: SecuritySurveillance using ZoneMinder
 date: 2011-06-02
-categories: None
 ---
 
 I wanted a way to provide some security to my home and give me the ability to remotely view what was happening around my house when I was away. I found plenty of ways to do this using a single camera, but I needed more. I was thinking more like five cameras. Then I remembered ZoneMinder. I found this a few years ago and never though too much about it. Didnt have a use for it at the time, mostly because I didnt own a home. Now that I do, I want to keep an eye on it from time to time. ZoneMinder will allow me to do everything I want at the low cost of Free. I do suggest that you give a donation to this project. It is well worth anything you can afford.   

@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu Replacement NIC
 date: 2010-05-11
-categories: None
 ---
 
 I ran into an issue where I replaced a network card in a computer and the Ubuntu installation would not display the new network card when running the command &#8216;ifconfig. Running ifconfig would only display the loopback interface &#8216;lo. I found that the network card had been recognized by Ubuntu but that my interface configuration had not been updated automatically.  

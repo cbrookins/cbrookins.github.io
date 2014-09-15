@@ -2,7 +2,6 @@
 layout: post
 title: Backup using smbclient
 date: 2011-02-17
-categories: None
 ---
 
 I have a large music collection that I share across my home network using DAAP. My wife on the other hand, does not have much of a music collection. She has no problem streaming the music when she is at home, but getting that music to her Ipod is a challenge. Since the music is only available over DAAP, she does not have access to add it to her Ipod.  
