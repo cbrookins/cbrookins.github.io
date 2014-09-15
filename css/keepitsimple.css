@@ -54,3 +54,9 @@ body h3 {
   line-height: 0px;
   font-size: smaller;
 }
+.copyright {
+  padding: 20px 0 0 0;
+}
+.jekyll-theme {
+  padding: 0;
+}
