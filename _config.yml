@@ -1,6 +1,5 @@
 # Site Settings
 baseurl: "/"
-<<<<<<< HEAD
 url: tech.brookins.info
 name: chris / brookins
 description:
@@ -38,4 +37,3 @@ linkedin:
 tumblr: 
 twitter: 
 website: 
->>>>>>> upstream/master

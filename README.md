@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cbrookins.github.io
 =======
 Keep it Simple
@@ -18,4 +17,3 @@ Demo
 
 
 [screenshot]:https://raw.githubusercontent.com/cbrookins/KeepItSimple/master/screenshot.jpg "screenshot"
->>>>>>> upstream/master
