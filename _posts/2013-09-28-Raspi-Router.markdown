@@ -29,7 +29,7 @@ The [ipfire wiki](http://wiki.ipfire.org/en/installation/start#local_settings) h
 
 The most difficult part will be setting up the network.  It is really the way they present it that makes it **seem** difficult, but it is actually pretty straight forward.  Most configurations will be a **Green + Red** setup.  This is a typical WAN/LAN setup.  One NIC for the internet side and one NIC for the LAN side.  Ipfire also allows for a DMZ and WLAN to be assigned but in this case I am only doing **Green + Red**.  For more information on the differnces between the Red, Green, Orange and Blue networks see the [ipfire wiki](http://wiki.ipfire.org/en/installation/start#network).  
 
-![](http://media.tumblr.com/49e6769647bbd19f6353f8ea328544bf/tumblr_inline_mttcg73wmo1r4mznj.png")  
+![](http://media.tumblr.com/49e6769647bbd19f6353f8ea328544bf/tumblr_inline_mttcg73wmo1r4mznj.png)  
 
 Once you set the type of network you plan to use, you now have to tell ipfire which interface to use as the Red interface and which to use as the green interface.  I used the onboard NIC for Red and the usb adapter for Green.  That was just my preference.  
 
