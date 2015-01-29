@@ -13,7 +13,7 @@ Once you are finished you have a complete advanced router with a nice web interf
 **Here are the things you will need.**  
 
 - [Raspberry Pi Bundle](http://www.amazon.com/gp/product/B00DLUXD64/ref=oh_details_o02_s00_i00?ie=UTF8&amp;psc=1) (Cheaper to buy it all separate, but two day shipping with Prime)  
-- [4GB SD Card)(http://www.amazon.com/Kingston-Class-Memory-SD4-4GBET/dp/B00200K1SO/ref=sr_1_7?s=electronics&amp;ie=UTF8&amp;qid=1380309162&amp;sr=1-7&amp;keywords=4gb+sd+card)  (a 1GB is fine, but cards are so cheap I never go below a 4GB.)  
+- [4GB SD Card](http://www.amazon.com/Kingston-Class-Memory-SD4-4GBET/dp/B00200K1SO/ref=sr_1_7?s=electronics&amp;ie=UTF8&amp;qid=1380309162&amp;sr=1-7&amp;keywords=4gb+sd+card)  (a 1GB is fine, but cards are so cheap I never go below a 4GB.)  
 - [USB Network Adapter](http://www.amazon.com/gp/product/B00007IFED/ref=oh_details_o07_s00_i00?ie=UTF8&amp;psc=1) (I used [this list](http://elinux.org/RPi_USB_Ethernet_adapters) to find this adapter)  
 - [latest ipfire ARM image without serial](http://downloads.ipfire.org/latest)  
 
