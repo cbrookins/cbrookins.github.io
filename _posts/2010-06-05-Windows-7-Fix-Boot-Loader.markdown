@@ -15,9 +15,10 @@ Then choose the installation you want to repair from the list and select "Next".
 From the next menu select "Command Prompt"  
 
 Then enter the command:  
-  <blockquote>bootrec /fixmbr</blockquote>  
+`bootrec /fixmbr`  
+  
 Now you can reboot your workstation and Windows should boot up with no problem.  
 
-***Note:** I found that some users needed to also run the command:*  
-<blockquote>*bootrec /FixBoot*</blockquote>  
-*I did not need to run this command to fix my workstation, but depending on the situation, you may need to.*",
+**Note:** I found that some users needed to also run the command:  
+`bootrec /FixBoot`  
+*I did not need to run this command to fix my workstation, but depending on the situation, you may need to.*
