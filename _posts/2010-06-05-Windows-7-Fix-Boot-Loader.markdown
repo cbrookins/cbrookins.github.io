@@ -8,11 +8,11 @@ I was playing around with a Linux distro (Backtrack 4) on my netbook and acciden
 
 To do this, you will need the installation media for Windows. In my case, it was upgrade media that I downloaded and created a bootable USB drive with.  
 
-Once you boot to the installation media, choose "Repair your computer" from the second screen.  
+Once you boot to the installation media, choose **Repair your computer** from the second screen.  
 
-Then choose the installation you want to repair from the list and select "Next". Most users will only have one choice.  
+Then choose the installation you want to repair from the list and select **Next**. Most users will only have one choice.  
 
-From the next menu select "Command Prompt"  
+From the next menu select **Command Prompt**  
 
 Then enter the command:  
 `bootrec /fixmbr`  
