@@ -15,7 +15,7 @@ iptables -A OUTPUT -d 127.0.0.1 -j ACCEPT
 iptables -A INPUT -s 10.1.1.0/24 -j ACCEPT  
 iptables -A OUTPUT -d 10.1.1.0/24 -j ACCEPT  
 iptables -A INPUT -s 1.2.3.4 -j ACCEPT  
-iptables -A OUPUT -d 1.2.3.4 -j ACCEPT  
+iptables -A OUTPUT -d 1.2.3.4 -j ACCEPT  
 iptables -A INPUT -j DROP  
 iptables -A OUTPUT -j DROP  
 
