@@ -25,51 +25,51 @@ Configure ejabberd
 
 Edit the **%%Hostname** section to match your environment  
 
-%% Hostname  
-{hosts, ["localhost", "domain.local"]}.  
+    %% Hostname  
+    {hosts, ["localhost", "domain.local"]}.  
+    
+    
+    Configure the LDAP settings as needed  
+    
+    %% Authentication using LDAP  
+    {auth_method, ldap}.  
+    %%  
+    %%  
+    %% List of LDAP servers:  
+    {ldap_servers, ["dc02.domain.local", "dc01.domain.local"]}.  
+    %%  
+    %%  
+    %% LDAP manager:  
+    {ldap_rootdn, "cn=test user,ou=people,dc=domain,dc=local"}.  
+    %%  
+    %% Password to LDAP manager:  
+    {ldap_password, "5up3rs3cr3+p455w0rd"}.  
+    %%  
+    %% Search base of LDAP directory:  
+    {ldap_base, "dc=domain,dc=local"}.  
+    %%  
+    %% LDAP attribute that holds user ID:  
+    {ldap_uids, [{"sAMAccountName", "%u"}]}.  
+    %%  
+    %% LDAP filter:  
+    {ldap_filter, "(memberOf=CN=jabberusers,OU=groups,OU=domain,OU=local)"}.  
 
 
-Configure the LDAP settings as needed  
-
-%% Authentication using LDAP  
-{auth_method, ldap}.  
-%%  
-%%  
-%% List of LDAP servers:  
-{ldap_servers, ["dc02.domain.local", "dc01.domain.local"]}.  
-%%  
-%%  
-%% LDAP manager:  
-{ldap_rootdn, "cn=test user,ou=people,dc=domain,dc=local"}.  
-%%  
-%% Password to LDAP manager:  
-{ldap_password, "5up3rs3cr3+p455w0rd"}.  
-%%  
-%% Search base of LDAP directory:  
-{ldap_base, "dc=domain,dc=local"}.  
-%%  
-%% LDAP attribute that holds user ID:  
-{ldap_uids, [{"sAMAccountName", "%u"}]}.  
-%%  
-%% LDAP filter:  
-{ldap_filter, "(memberOf=CN=jabberusers,OU=groups,OU=domain,OU=local)"}.  
-
-
-**Note: You can use a &#8216;* in the ldap_filter to include all domain users.**  
+**Note: You can use a * in the ldap_filter to include all domain users.**  
 
 Configure the Access Control List  
 
-%%% ====================  
-%%% ACCESS CONTROL LISTS  
-%%  
-%% Admin user  
-{acl, admin, {user, "administrator", "localhost"}}.  
-{acl, admin, {user, "administrator", "domain.local"}}.  
+    %%% ====================  
+    %%% ACCESS CONTROL LISTS  
+    %%  
+    %% Admin user  
+    {acl, admin, {user, "administrator", "localhost"}}.  
+    {acl, admin, {user, "administrator", "domain.local"}}.  
 
 
 Save the configuration  
-'ctrl+x' to exit nano  
-'y' to save the changes  
+**ctrl+x** to exit nano  
+**y** to save the changes  
 
 Now restart ejabberd  
 `sudo /etc/init.d/ejabberd restart`  
