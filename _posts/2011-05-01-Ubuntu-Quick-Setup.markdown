@@ -9,7 +9,6 @@ One of the most annoying things about reinstalling your operating system is rein
 I took about an hour out of my day and put together a pretty simple script to automatically set up my repositories, remove default applications that I did not want and install the applications that I have to install every time I reinstall the OS.  
 
 This is the script that I came up with.  
-
    
  
 <pre># Set Colors  
@@ -47,7 +46,10 @@ echo "${txtred}Installing DVD Decryption${txtrst}"
 sudo /usr/share/doc/libdvdread4/install-css.sh</pre>  
 
 Copy the above to a new file with the .sh extension.   
-Add executable permissions *'chmod +x filename.sh'*.  
+Add executable permissions  
+`chmod +x filename.sh`  
+  
 Now run it.  
-
-This script makes it simple to add and remove applications.  You can install additional applications by editing line twenty nine.  You can remove additional applications by editing line twenty six.  This was thrown together quickly, and could easily be better.  If anyone has any suggestions on how to make this better, leave them in the comments.",
+`filename.sh`
+  
+This script makes it simple to add and remove applications.  You can install additional applications by editing line twenty nine.  You can remove additional applications by editing line twenty six.  This was thrown together quickly, and could easily be better.  If anyone has any suggestions on how to make this better, leave them in the comments.
