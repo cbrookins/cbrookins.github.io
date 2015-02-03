@@ -19,18 +19,17 @@ Now add `dns-nameservers xx.xxx.xxx.xx xx.xxx.xxx.xx` under the interface you wa
 
 Example:  
   
-`auto lo`  
-`iface lo inet loopback`  
+    auto lo  
+    iface lo inet loopback  
 
-`auto etho`  
-`iface etho inet static`  
-   `address 192.168.0.42`  
-   `network 192.168.0.0`  
-   `netmask 255.255.255.0`  
-   `broadcast 192.168.0.255`  
-   `gateway 192.168.0.1`  
-   <span style="background-color: yellow;">dns-nameservers 8.8.8.8 8.8.4.4</span>  
+    auto etho  
+    iface etho inet static  
+    address 192.168.0.42  
+    network 192.168.0.0  
+    netmask 255.255.255.0  
+    broadcast 192.168.0.255  
+    gateway 192.168.0.1  
+    dns-nameservers 8.8.8.8 8.8.4.4  
   
-
-
+  
 There are other ways to accomplish this. I found <a href="http://www.stgraber.org/2012/02/24/dns-in-ubuntu-12-04/" rel="nofollow" target="_blank">this article</a>, which describes how to use &#8216;tail files in<a href="http://en.wikipedia.org/wiki/Resolvconf" target="_blank">resolvconf</a>. This seemed overly complicated compared to using the way described in this article, but using tail files could have some benefit that I do not know about.
