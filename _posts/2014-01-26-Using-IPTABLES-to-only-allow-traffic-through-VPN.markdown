@@ -32,3 +32,18 @@ If I break down what these commands do, it looks like this:
 10. Do not allow any outgoing connections that do not match the above rules  
 
 I test with a constant ping to Google while disconnected from VPN, all of these should fail, then connect to VPN and watch the pings start to succeed.  I also like to randomly check my connection by using curl with my public IP look-up site of choice.
+
+Now to save these settings so that they are available at each boot.  In my case I am using Ubuntu 14.04 but this should be usable for multiple distributions of Linux.
+
+Save the current iptables rules  
+`sudo iptables-save > /etc/ufw/openvpn.rules`  
+
+Edit /etc/rc.local  
+`sudo nano /etc/rc.local`  
+
+Add the following above `exit 0`  
+    /sbin/iptables-restore < /etc/ufw/openvpn.rules  
+  
+Now when you reboot your rules will be restored back into iptables.  You can confirm this by rebooting and running the command  
+`sudo iptables -L`
+
