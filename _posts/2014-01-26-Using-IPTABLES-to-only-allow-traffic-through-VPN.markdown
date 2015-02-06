@@ -42,7 +42,8 @@ Edit /etc/rc.local
 `sudo nano /etc/rc.local`  
 
 Add the following above `exit 0`  
-> /sbin/iptables-restore < /etc/ufw/openvpn.rules  
+
+     /sbin/iptables-restore < /etc/ufw/openvpn.rules  
   
 Now when you reboot your rules will be restored back into iptables.  You can confirm this by rebooting and running the command  
 `sudo iptables -L`
