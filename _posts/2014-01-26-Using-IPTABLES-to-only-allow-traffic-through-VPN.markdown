@@ -8,6 +8,7 @@ date: 2014-01-26
 
 The first thing that you need to determine is an ip address of your vpn provider.  In my case it was Private Internet Access.  They make it easy by providing their public IP addresses online.  For the sake of this post my VPN host's IP is 1.2.3.4.  Anywhere you see this address, replace with your VPN host's IP.  From a terminal window enter the following commands  
 
+`sudo su` *(May not be needed for certain distributions)*  
 `iptables -A INPUT -i tun+ -j ACCEPT`  
 `iptables -A OUTPUT -o tun+ -j ACCEPT`  
 `iptables -A INPUT -s 127.0.0.1 -j ACCEPT`  
