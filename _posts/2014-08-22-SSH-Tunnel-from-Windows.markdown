@@ -37,7 +37,7 @@ For the source, I will allow **Any**.  I will enable **Destination NAT (Port for
 
 Luckily for me [IPFire] supports numerous services.  You cann access these settings in [IPFire] by going to
 
-> Serivces > Dynamic DNS
+> Services > Dynamic DNS
 
 Choose a service from the provided list, enter the hostname you registered with that service, and enter the username/password that you use for the service.
 
