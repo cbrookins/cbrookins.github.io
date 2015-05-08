@@ -1,9 +1,8 @@
-# Install SCM Manager in Windows
-- Chris
-- cbrookins
-- 2015/05/08
-- None
-- published
+---
+layout: post
+title: Install SCM Manager in Windows
+date: 2015-05-08
+---
 
 **This post assumes you already have a Windows server available**
 
@@ -27,10 +26,10 @@ In Windows Task Scheduler I created a task to run at system startup to run scm-s
 Since I was setting this up for my workplace I set this task to run as a service account instead of my own account.  That way the software will continue to function even if I leave the organization.  
 
 ### Configure SCM Manager
-After reboot the SCM Server should be running and with a web browser you can now open up the administration console. 
+After reboot the SCM Server should be running and with a web browser you can now open up the administration console.
 
 **http://localhost:8080**  
-  
+
 Username: **scmadmin**  
 Password: **scmadmin**  (Change this)
 
