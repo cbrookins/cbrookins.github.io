@@ -12,6 +12,7 @@ date: 2015-05-08
 - A copy of SCM Manager ([Download here][2])
 
 ## Setup
+
 ### Install Java
 At the time of writing this, I am using **Java 8u45**.  
 
