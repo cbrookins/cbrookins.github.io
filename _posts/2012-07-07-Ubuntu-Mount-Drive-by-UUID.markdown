@@ -9,31 +9,31 @@ A small issue users can run into is automatically mounting USB drives to the sam
 Insert your removable device and locate which dev id and partition number that your device<span style="background-color: white;">currently has.</span>  
 
 Now run  
-  
+
 `sudo ls -l /dev/disk/by-uuid`  
-  
+
 
 
 the output should look similar to this  
-  
-`lrwxrwxrwx 1 root root 10 Jul 5 19:07 155fb40b-8206-4b92-bc52-c8f507085df1 -&gt; ../../sda1`  
-`lrwxrwxrwx 1 root root 10 Jul 5 19:07 2ccacd65-4ac7-4ebf-81bb-a90bfcb4abc0 -&gt; ../../sdb1`  
-`lrwxrwxrwx 1 root root 10 Jul 5 19:07 49cfef01-93db-4ae6-9925-4c3ea1281448 -&gt; ../../sdb5`  
-  
+
+`lrwxrwxrwx 1 root root 10 Jul 5 19:07 155fb40b-8206-4b92-bc52-c8f507085df1 -> ../../sda1`  
+`lrwxrwxrwx 1 root root 10 Jul 5 19:07 2ccacd65-4ac7-4ebf-81bb-a90bfcb4abc0 -> ../../sdb1`  
+`lrwxrwxrwx 1 root root 10 Jul 5 19:07 49cfef01-93db-4ae6-9925-4c3ea1281448 -> ../../sdb5`  
+
 
 
 You want the number starting after the date/time. In this case I have two physical disks, sda and sdb.  
 
 To mount **/dev/sdb1** I would add the following to **/etc/fstab** by entering  
 
-  
+
 `sudo nano /etc/fstab`  
-  
+
 
 
 and entering  
-  
-`UUID=2ccacd65-4ac7-4ebf-81bb-a90bfcb4abc0  /mnt/folder  ext4  defaults  0  01` 
-  
+
+`UUID=2ccacd65-4ac7-4ebf-81bb-a90bfcb4abc0  /mnt/folder  ext4  defaults  0  01`
+
 
 You will want to update the &#8216;ext4 option above with whatever file system your drive has. It could be vfat, ntfs, ext3 or anything else that is supported.
