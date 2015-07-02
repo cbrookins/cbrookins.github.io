@@ -13,4 +13,4 @@ This SDK installation will prompt you to install Silverlight and Visual Studio. 
 - Set up a task to run this script every few minutes.  
 
 Get a copy of the script <a href="https://app.box.com/s/iibq1niay8hxpqkf41ls" target="_blank">here</a>.  
-See the original Lync 2010 post [here](http://tech.brookins.info/post/42788829603/lync-status-updater-lastfm")
+See the original Lync 2010 post [here](http://http://tech.brookins.info/2013/02/10/Lync-2010-Status-Updater--LastFM.html")
