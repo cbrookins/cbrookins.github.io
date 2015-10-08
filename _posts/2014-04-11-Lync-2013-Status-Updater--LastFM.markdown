@@ -4,6 +4,8 @@ title: Lync 2013 Status Updater  LastFM
 date: 2014-04-11
 ---
 
+**Last.fm has removed their RSS feeds in support of their new API.  This script will need some additional tweaking and a Last.fm API account.  I will update with details when I know more.**
+
 This is a follow up to the Lync 2010 Status Updater post that I did a while back.  Now that the Lync 2013 SDK is available this can be used with the Lync 2013 client.  As before you will need the SDK for your version of Lync.  In this case [2013](http://www.microsoft.com/en-us/download/details.aspx?id=36824).  
 
 This SDK installation will prompt you to install Silverlight and Visual Studio.  For our purposes, this is not necessary so we can select Ok and move along.  Once you install the SDK you are ready to go. The script that I provided for Lync 2010 works perfectly for 2013.  The only change needed is the path to Microsoft.Lync.Model.dll file.  
