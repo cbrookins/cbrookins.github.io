@@ -23,7 +23,7 @@ For the other tools, just download them and drop them wherever you like.  I like
 ``choco install -y putty.install``
 
 ### Environment Variables
-Now create a system variable with the name **GIT_SSH** and set the value to the path for plink.exe.
+Now create a system variable with the name **GIT_SSH** and set the value to the path for plink.exe.  There are many ways to do this, but this is what I like best. It integrates nicely into Windows and I have no need to use the Git Bash shell.
 
 ``C:\Program Files(x86)\Putty\plink.exe``
 
