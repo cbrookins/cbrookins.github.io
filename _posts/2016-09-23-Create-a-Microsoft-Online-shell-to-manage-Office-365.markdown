@@ -14,7 +14,7 @@ Download the [Microsoft Azure Active Directory Module for Windows PowerShell](ht
 ``Connect-MsolService -Credential $UserCredential``
 
 ###Create MSOnlineStartup.ps1 that uses a credential file
-** This option will auto log you in using your O365 credntials **  
+**This option will auto log you in using your O365 credntials**  
 
 ``$UserCredential = Import-CliXML -path ".\credentials.creds"``  
 ``Connect-MsolService -Credential $UserCredential``
