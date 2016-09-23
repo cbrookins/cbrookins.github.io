@@ -1,5 +1,8 @@
-Create a Microsoft Online shell to manage Office 365
-====
+---
+layout: post
+title: Create a Microsoft Online shell to manage Office 365
+date: 2016-09-23
+---
 
 ###Install Module
 Download the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/en-us/download/details.aspx?id=41950) and install it.
