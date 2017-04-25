@@ -1,4 +1,4 @@
-s---
+---
 layout: post
 title: Create a Microsoft Online shell to manage Office 365
 date: 2016-09-23
