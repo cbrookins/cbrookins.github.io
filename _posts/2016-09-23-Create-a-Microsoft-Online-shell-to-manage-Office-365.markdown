@@ -1,4 +1,4 @@
----
+s---
 layout: post
 title: Create a Microsoft Online shell to manage Office 365
 date: 2016-09-23
@@ -24,7 +24,7 @@ Download the [Microsoft Azure Active Directory Module for Windows PowerShell](ht
 
 ## Create credential file
 ``$password = ConvertTo-SecureString -string "<your password>" -AsPlainText -Force``  
-``New-Object System.Management.Automation.PSCredential("<user name>", $password) | Export-CliXml -path "$env:userprofile\Scripts\MSOnline\credentials.cred"``
+``New-Object System.Management.Automation.PSCredential("<user name>", $password) | Export-CliXml -path "$env:userprofile\Scripts\MSOnline\credentials.creds"``
 
 ## Create Shortcut
 powershell.exe -noexit import-module msonline; .\msonlinestartup.ps1
