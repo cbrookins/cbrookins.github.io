@@ -10,7 +10,7 @@ http://ftp-archive.freebsd.org/pub/FreeBSD/releases/amd64/11.2-RELEASE/base.txz
 
 ## Prerequisites  
 vi /usr/local/etc/pkg/repos/FreeBSD.conf  
-https://pkg.freebsd.org/FreeBSD:11:amd64/quarterly  
+update url to https://pkg.freebsd.org/FreeBSD:11:amd64/quarterly  
 pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi  
 
 ## Install Emby
