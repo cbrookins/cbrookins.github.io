@@ -23,3 +23,5 @@ iocage restart ALL
 iocage restart {jailNameHere}  
 
 iocage destroy {jailNameHere}  
+
+iocage update {jailNameHere}  
