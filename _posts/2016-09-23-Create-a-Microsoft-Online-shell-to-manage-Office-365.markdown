@@ -5,9 +5,9 @@ date: 2016-09-23
 ---
 
 ## Install Module
-Download the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/en-us/download/details.aspx?id=41950) and install it.
-
-Download the [Microsoft Azure Active Directory Module for Windows PowerShell](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185) and install it.
+*Installing modules must be done with an administrator Powershell window*  
+``install-module msonline``  
+``install-module azuread``  
 
 
 ## Create MSOnlineStartup.ps1 without credential file
