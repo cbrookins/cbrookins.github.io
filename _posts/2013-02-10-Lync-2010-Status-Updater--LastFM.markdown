@@ -16,4 +16,4 @@ Grab a copy <a href="https://www.box.com/s/gpac8mqxod4nk4sef4vn" target="_blank"
 
 I set this up using Task Scheduler and have it run every 5 minutes.n   
 
-**<a href="http://tech.brookins.info/2014/04/11/Lync-2013-Status-Updater--LastFM.html" target="_blank">Updated for Lync 2013</a>**
+**<a href="//tech.brookins.info/2014/04/11/Lync-2013-Status-Updater-LastFM.html" target="_blank">Updated for Lync 2013</a>**
