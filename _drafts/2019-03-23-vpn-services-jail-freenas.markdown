@@ -5,7 +5,7 @@ date:
 ---
 
 ## pre-init script
-  
+devfs rule -s 4 add path 'tun*' unhide
 
 ## packages
 pkg install nano y
