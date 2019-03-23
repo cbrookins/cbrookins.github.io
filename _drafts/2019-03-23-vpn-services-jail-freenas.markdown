@@ -8,8 +8,7 @@ date:
 devfs rule -s 4 add path 'tun*' unhide
 
 ## packages
-pkg install nano y
-transmission-cli transmission-web transmission-daemon mono sonarr openvpn
+pkg install nano transmission-cli transmission-web transmission-daemon mono sonarr openvpn
 
 
 ## rc.conf
