@@ -23,5 +23,7 @@ Now enter
 8  bcdboot c:\windows /s L: /f UEFI
 9  exit
 ```  
+*Note: In this example I selected Volume 3.  This may not always be the correct volume in all cases.  Usually the volume you are looking for it the smallest on the drive.*  
+  
 Now you can select **Continue** or **Turn off your PC**  
-Hopefully now your new VM can boot
+Hopefully, now your device can boot
