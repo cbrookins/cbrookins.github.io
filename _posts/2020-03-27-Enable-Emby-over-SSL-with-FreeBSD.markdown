@@ -30,6 +30,6 @@ I would recommend you set **Secure connection mode** to **Preferred,but not requ
   
 Restart the server.
   
-You should now browse to **https://**<server_name_or_ip>:8920 to verify that the server is up and running on using SSL. If all is good, you can go back to **Secure connection mode** and set it to **Required for all remote connections**.  
+You should now browse to **https://**[server_name_or_ip]:8920 to verify that the server is up and running on using SSL. If all is good, you can go back to **Secure connection mode** and set it to **Required for all remote connections**.  
   
 The certificate will still come back as **insecure** since it is not verified by a third party, but the encryption is all the same.
