@@ -5,3 +5,9 @@ date:
 ---
 
 ## Scenario
+  
+``sudo apt install tfptd-hpa``
+
+/srv/tftpd
+
+wget netbook for distribution
