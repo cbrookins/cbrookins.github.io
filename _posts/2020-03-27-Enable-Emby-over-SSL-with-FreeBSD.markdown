@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Create a custom jail for OpenVPN in FreeNAS
+title: Enable Emby over SSL with FreeBSD
 date: 2020-03-27
 ---
 
