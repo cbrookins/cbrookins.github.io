@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FreeNAS jail for cloud printing
-date: 
+date: 2020-06-02
 ---
 
 ## Use case  
@@ -50,3 +50,8 @@ Now run the following command to get your Google link to register your printer w
 Reboot and verify that **cloudprint** is running  
 
 You should now be able to send jobs to the Google cloud printer and they end up in your printer tray.
+
+#### Sources  
+[FreeBSD Official](https://www.freebsd.org/doc/en/articles/cups/)  
+[Cups Official](https://www.cups.org/doc/man-cupsctl.html)
+[Cloudprint GitHub](https://github.com/armooo/cloudprint)
