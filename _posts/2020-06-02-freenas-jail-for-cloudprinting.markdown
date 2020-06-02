@@ -53,5 +53,5 @@ You should now be able to send jobs to the Google cloud printer and they end up 
 
 #### Sources  
 [FreeBSD Official](https://www.freebsd.org/doc/en/articles/cups/)  
-[Cups Official](https://www.cups.org/doc/man-cupsctl.html)
+[Cups Official](https://www.cups.org/doc/man-cupsctl.html)  
 [Cloudprint GitHub](https://github.com/armooo/cloudprint)
