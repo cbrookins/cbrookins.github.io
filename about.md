@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-date: 
+date: 2020-06-02
 ---
 
 this is an about page.
