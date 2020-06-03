@@ -47,7 +47,7 @@ Add your printer under the **Administration** tab
 Now run the following command  
 ``service cloudprint start``  
 
-Use a browser to go to the provided link and registered the printer with your Google account.  
+Use a browser to go to the provided link and registered the printer with your Google account. Once registration is complete you should be able to send jobs to your printer.    
 
 Reboot and verify that **cloudprint** is running.  
 
