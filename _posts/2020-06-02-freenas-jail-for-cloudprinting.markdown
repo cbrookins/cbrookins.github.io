@@ -44,7 +44,7 @@ Login using FreeNAS **root** login. You could also set up a new user and add it 
 
 Add your printer under the **Administration** tab  
 
-Now run the following command 
+Now run the following command  
 ``service cloudprint start``  
 
 Use a browser to go to the provided link and registered the printer with your Google account.  
