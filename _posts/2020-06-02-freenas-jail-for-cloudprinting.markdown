@@ -45,9 +45,9 @@ Login using FreeNAS **root** login. You could also set up a new user and add it 
 Add your printer under the **Administration** tab  
 
 Now run the following command to get your Google link to register your printer with your Google account  
-``cloudprint -d``  
+``service cloudprint start``  
 
-Reboot and verify that **cloudprint** is running  
+Once you have registered the printer with your Google account, reboot and verify that **cloudprint** is running  
 
 You should now be able to send jobs to the Google cloud printer and they end up in your printer tray.
 
