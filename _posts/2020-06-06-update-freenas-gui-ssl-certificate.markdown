@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Update FreeNAS GUI SSL Certificate
-date: 
+date: 2020-06-06
 ---
 
 ## Scenario  
