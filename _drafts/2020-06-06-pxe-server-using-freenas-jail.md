@@ -10,7 +10,6 @@ date:
 
 ```
 pkg install tftp-hpa nano
-
 mkdir -p /mnt/tftpd
 ```  
 
@@ -26,13 +25,13 @@ wget http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/installer-amd64/
 
 tar -xvf netboot.tar.gz
 
-mkdir /mnt/tftpd/ubuntu
+mkdir -p /mnt/tftpd/ubuntu/18.04
 
-sudo mv netboot/ubuntu-installer /mnt/tftpd/ubuntu
-sudo cd /mnt/tftp/ubuntu/amd64/boot-screens
+sudo mv netboot/ubuntu-installer /mnt/tftpd/ubuntu/18.04
+sudo cd /mnt/tftp/ubuntu/18.04/amd64/boot-screens
 sudo cp *.c32 /mnt/tftpd
 sudo cp *.cfg /mnt/tftpd 
-sudo cd /mnt/tftpd/ubuntu/amd64 
+sudo cd /mnt/tftpd/ubuntu/18.04/amd64 
 sudo cp -R *.cfg
 sudo cp pxelinux.0 /mnt/tftpd
 ```  
@@ -47,7 +46,9 @@ label ubuntu
 ```
 
 #### UEFI setup  
-I ended up using the Fedora files for UEFI since they didn't seem to care where everything was located. I could not get the Ubuntu grub files to work.  I read that they may have hard coded paths included in them.
+I ended up using the Fedora files for UEFI since they didn't seem to care where the grub files were located.  It worked out since I also wanted Fedora available over PXE.  
+
+I could not get the Ubuntu grub files to work.  I read that they may have hard coded paths included in them, which doesn't allow you to modify the folder structure.  
 ```
 wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grub.cfg
 wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grubx64.efi
@@ -63,8 +64,8 @@ set default="0"
 set timeout=60
 
 menuentry "Install Ubuntu 18.04" {
-	linux	/ubuntu/amd64/linux vga=788 
-	initrd	/ubuntu/amd64/initrd.gz
+	linux	/ubuntu/18.04/amd64/linux vga=788 
+	initrd	/ubuntu/18.04/amd64/initrd.gz
 }
 grub_platform
 if [ "$grub_platform" = "efi" ]; then
