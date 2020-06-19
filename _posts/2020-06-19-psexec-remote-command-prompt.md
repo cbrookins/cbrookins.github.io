@@ -16,7 +16,7 @@ Download PSExec, unzip, and execute a single time to accept the EULA. Now in a c
   
 Execute the following to open a remote command prompt on a remote device
 ```
-psexec \\[ip_or_hostname] cmd.exe -u remote_device_admin -p remote_device_password
+psexec \\[ip_or_hostname] cmd.exe -u [remote_device_admin] -p [remote_device_password]
 ```  
   
 Once that executes it will drop you to a standard looking command prompt.  You can type ``hostname`` to display the computer name, and it should display the remote computers hostname. Now you can run any command as if you were sitting at the device.  
