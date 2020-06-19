@@ -10,7 +10,7 @@ Sometimes you just need to pull up a remote command prompt.  I use this in most 
 ## How to
 As the title suggests, I use [PSExec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec) to accomplish this.  These days you could also go the Powershell route, but this works more consistently for me at the time of writing. 
 This tool requires that you have admin access to the remote device.  In my case I use this as a SysAdmin where we have implemented [LAPS](https://www.microsoft.com/en-us/download/details.aspx?id=46899), so I will need to pass a username and password to the command. 
-If you are already admin on the device using your current credentials, possibly a domain environment, then you can exclude **-u** and **-p**. [This page](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec) also includes all available parameters.  
+If you are already admin on the device using your current credentials, possibly a domain environment without a PAW/LAPS setup, then you can exclude **-u** and **-p**. [This page](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec) also includes all available parameters.  
   
 Download PSExec, unzip, and execute a single time to accept the EULA. Now in a command prompt ``cd`` to the folder where you unzipped PSExec.exe.  
   
