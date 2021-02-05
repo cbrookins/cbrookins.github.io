@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting variables for Cron jobs
-date:
+date: 2021-02-05
 ---
 
 ### Using variabled with a cronjob
@@ -20,3 +20,5 @@ Add your variables to the top of the file.
 var1=/home/user/scripts  
 var2=https://webhook.url
 ```
+Save the changes.  
+Now when you run a cron job it will have access to those variables that you set.
