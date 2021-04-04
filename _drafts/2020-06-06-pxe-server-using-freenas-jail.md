@@ -11,6 +11,7 @@ date:
 ```
 pkg install tftp-hpa nano
 mkdir -p /mnt/tftpd
+chmod -R 775 /mnt/tftpd
 ```  
 
 Add the following to **/etc/rc.conf**
