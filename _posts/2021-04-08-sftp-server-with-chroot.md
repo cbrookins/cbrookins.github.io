@@ -48,5 +48,5 @@ Match Group sftp
   ChrootDirectory /home/jail
 ``` 
   
-Restart SSH  
+### Restart SSH  
 ```service sshd restart```
