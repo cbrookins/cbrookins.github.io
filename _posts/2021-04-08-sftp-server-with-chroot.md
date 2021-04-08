@@ -14,29 +14,27 @@ move around the filesystem and view most files.  This was my setup using CentOS 
 ```addgroup sftp```
 
 ### Create a user
-```
-adduser -G sftp -s /bin/false *username*
-passwd *username*
-```
+```adduser -G sftp -s /bin/false *username*```
+
+```passwd *username*```  
 
 ### Set up folder structure for chroot
-```
-mkdir -p /home/jail  
-chown root:root /home/jail   
-chmod 755 /home/jail  
-```
+```mkdir -p /home/jail```
+  
+```chown root:root /home/jail```
+
+   
+```chmod 755 /home/jail```
 
 ### Make directory for user
-```
-mkdir -p /home/jail/*username*  
-chown *usernamer*:*username* /home/jail/*username*  
-chmod 700 /home/jail/*username*
-```
+```mkdir -p /home/jail/*username*```  
+
+```chown *usernamer*:*username* /home/jail/*username*```  
+
+```chmod 700 /home/jail/*username*```
 
 ### Modify sshd_config
-```
-nano /etc/ssh/sshd_config  
-```
+```nano /etc/ssh/sshd_config```
   
 AllowTTY and AllowX11Forwarding defaults are already **no**, but I like to make sure by uncommenting the line.  
 change **#AllowTTY no** to **AllowTTY no**  
