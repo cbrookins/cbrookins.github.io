@@ -1,13 +1,13 @@
 ---
 layout: post
-title: PXE server using a FreeNAS jail
-date:
+title: PXE server using a TrueNAS jail
+date: 2021-05-04
 ---
 
 ## Scenario
+I wanted to test out Linux as a PXE server for reinstalling OSs on my devices at home.  I was tired of messing with USB drives and wanted to be able to PXE boot, choose an OS and go.  Nothing about this requires this be in a TrueNAS jail, these steps should work for anything based on FreeBSD.  It should work on Linux distros also, even though the TFTP package name may be different.
 
-## Header
-
+## Configuration
 ```
 pkg install tftp-hpa nano
 mkdir -p /mnt/tftpd
@@ -77,3 +77,13 @@ menuentry 'UEFI Firmware Settings' {
 	fwsetup
 }
 ```
+
+#### DHCP Server
+**Note:** *There is a way to get BIOS and UEFI working at the same time using the DHCP server, but in my case I was using my routers DHCP server and did not have direct access to the configuration to make that happen.*
+  
+Now you need to set DHCP option 66 and 67  
+Option 66 is the server address  
+Option 67 will be the path to the boot file you want to use. The path is formatted from the root of the TFTP server.  For this example our file is in the root of the TFTP server so I would enter **grubx64.efi**  
+
+## Conclusion
+Now you should be able to boot a workstation and select PXE to boot to your server and select an available install.
