@@ -19,7 +19,7 @@ tftpd_flags="-p -s /mnt/tftpd -B 1024 --ipv4"
 ```  
 
 #### BIOS setup  
-	wget http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/installer-amd64/current/images/netboot/netboot.tar.gz  
+```wget http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/installer-amd64/current/images/netboot/netboot.tar.gz```  
 ```tar -xvf netboot.tar.gz```  
 ```mkdir -p /mnt/tftpd/ubuntu/18.04```  
 ```sudo mv netboot/ubuntu-installer /mnt/tftpd/ubuntu/18.04```  
@@ -44,9 +44,9 @@ I ended up using the Fedora files for UEFI since they didn't seem to care where 
 
 I could not get the Ubuntu grub files to work.  I read that they may have hard coded paths included in them, which doesn't allow you to modify the folder structure.  
 
-	wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grub.cfg  
+```wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grub.cfg```  
 
-	wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grubx64.efi  
+```wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grubx64.efi  
 
 Move the grub files into the tftp root directory  
 ```mv grub.* /mnt/tftpd```
