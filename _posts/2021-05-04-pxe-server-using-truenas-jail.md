@@ -46,7 +46,7 @@ I could not get the Ubuntu grub files to work.  I read that they may have hard c
 
 ```wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grub.cfg```  
 
-```wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grubx64.efi  
+```wget https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/os/EFI/BOOT/grubx64.efi```  
 
 Move the grub files into the tftp root directory  
 ```mv grub.* /mnt/tftpd```
